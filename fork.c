@@ -1,3 +1,4 @@
+//Base del código en: https://www.geeksforgeeks.org/using-fork-produce-1-parent-3-child-processes/?ref=lbp
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -8,7 +9,7 @@ int main()
 {
     int pid, pid1, pid2;
     pid = fork();
-    
+
     if (pid < 0)
     {
         printf("Fallo del fork");
