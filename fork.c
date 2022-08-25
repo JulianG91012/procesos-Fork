@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/wait.h>
+
 // Variable global para crear copias en cada uno de los hijos
 int contador = 0;
 int main()
